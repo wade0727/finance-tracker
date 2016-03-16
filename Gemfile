@@ -3,7 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-
+# Use Devise for authentication
+gem 'devise'
+# Use Twitter-Bootstrap for theme
+gem 'twitter-bootstrap-rails'
+# Use Devise views with Bootstrap 3.
+gem 'devise-bootstrap-views'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
